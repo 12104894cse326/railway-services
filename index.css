@@ -1,0 +1,58 @@
+@keyframes color {
+  0%   { background: #33CCCC; }
+  20%  { background: #33CC36; }
+  40%  { background: #B8CC33; }
+  60%  { background: #FCCA00; }
+  80%  { background: #33CC36; }
+  100% { background: #33CCCC; }
+}
+
+body {
+  background: #33CCCC; /* Fallback */
+  animation: color 9s infinite linear;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+/* navbar */
+nav{
+  color: green;
+  float: right;
+  margin:20px 20px;
+}
+nav ul{
+  list-style: none;
+}
+nav ul li {
+  float: left;
+  transition: .3s;
+}
+nav ul li a{
+  text-decoration: none;
+  color: green;
+background: white;
+  transition: .5;
+  font-size: 20px;
+  margin-left:16px;
+}
+nav ul li:hover a{
+  text-decoration: none;
+  color: purple;
+}
+nav ul li:hover{
+  height: 45px;
+  padding-top: 20px;
+  margin-top: -20px;
+ background: white;
+  text-decoration: none;
+  transform: skew(15deg);
+}
+
+
+
